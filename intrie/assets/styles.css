@@ -1,0 +1,117 @@
+:root {
+    --bg: #f6f3ee;
+    --panel: rgba(255, 255, 255, 0.88);
+    --text: #172121;
+    --muted: #5a6b6b;
+    --accent: #0d5c63;
+    --accent-2: #f4a259;
+    --border: rgba(23, 33, 33, 0.08);
+}
+
+.stApp {
+    background:
+        radial-gradient(circle at top left, rgba(244, 162, 89, 0.22), transparent 28%),
+        radial-gradient(circle at top right, rgba(13, 92, 99, 0.16), transparent 32%),
+        linear-gradient(180deg, #f8f5ef 0%, #f2ede5 100%);
+    color: var(--text);
+}
+
+.stApp,
+.stApp p,
+.stApp span,
+.stApp label,
+.stApp div,
+.stApp li,
+.stApp h1,
+.stApp h2,
+.stApp h3,
+.stApp h4,
+.stApp h5,
+.stApp h6 {
+    color: #000000;
+}
+
+[data-testid="stSidebar"] {
+    background: #262732;
+}
+
+[data-testid="stSidebar"] *,
+[data-testid="stSidebar"] p,
+[data-testid="stSidebar"] span,
+[data-testid="stSidebar"] label,
+[data-testid="stSidebar"] div,
+[data-testid="stSidebar"] li,
+[data-testid="stSidebar"] h1,
+[data-testid="stSidebar"] h2,
+[data-testid="stSidebar"] h3,
+[data-testid="stSidebar"] h4,
+[data-testid="stSidebar"] h5,
+[data-testid="stSidebar"] h6 {
+    color: #ffffff !important;
+}
+
+[data-testid="stSidebar"] .stRadio > div {
+    gap: 0.5rem;
+}
+
+[data-testid="stSidebar"] .stRadio label {
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 14px;
+    padding: 0.75rem 0.9rem;
+    transition: background 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+}
+
+[data-testid="stSidebar"] .stRadio label:hover {
+    background: rgba(255, 255, 255, 0.14);
+    border-color: rgba(255, 255, 255, 0.2);
+    transform: translateY(-1px);
+}
+
+[data-testid="stSidebar"] .stRadio label:has(input:checked) {
+    background: linear-gradient(135deg, rgba(13, 92, 99, 0.95), rgba(19, 128, 136, 0.82));
+    border-color: rgba(255, 255, 255, 0.18);
+}
+
+[data-testid="stSidebar"] .stRadio label p {
+    color: #ffffff !important;
+    font-weight: 600;
+}
+
+[data-testid="stSidebar"] .stImage img {
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.24);
+}
+
+.block-container {
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+.intrie-card {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 24px;
+    padding: 1.2rem;
+    box-shadow: 0 14px 40px rgba(20, 26, 26, 0.07);
+    backdrop-filter: blur(16px);
+}
+
+.intrie-hero {
+    padding: 1.5rem;
+    border-radius: 28px;
+    background: linear-gradient(135deg, rgba(13, 92, 99, 0.95), rgba(19, 128, 136, 0.82));
+    color: #000000;
+    margin-bottom: 1rem;
+}
+
+.intrie-kpi {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.intrie-label {
+    color: var(--muted);
+    font-size: 0.92rem;
+}

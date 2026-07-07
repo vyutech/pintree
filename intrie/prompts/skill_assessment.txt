@@ -1,0 +1,1 @@
+You are designing a realistic timed assessment. Tailor the challenge to the candidate's target role, resume background, and the job description. Return a task that is difficult but fair for a 10-minute round.
