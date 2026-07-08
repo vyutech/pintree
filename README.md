@@ -2,7 +2,7 @@
 
 Intrie is an AI-powered interview preparation platform built with Python and Streamlit. It helps users prepare for job interviews by analyzing resumes, understanding job descriptions, generating skill assessments, simulating technical interviews, and providing actionable feedback and career guidance.
 
-#Application link:
+## Application link:
 https://intriee.streamlit.app/
 
 ## Features
